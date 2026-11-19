@@ -1,0 +1,980 @@
+{
+  "activeCompanyId": "comp-dan",
+  "activeProjectId": "prod-dan-0042",
+  "companies": [
+    {
+      "id": "comp-dan",
+      "code": "DAN",
+      "name": "مبلمان دانشور",
+      "englishFolder": "DAN-Danshvar",
+      "contactName": "مهندس رضا دانشور",
+      "contactPhone": "021-88451290",
+      "contactEmail": "studio@danshvar.ir",
+      "adminEmail": "reza@danshvar.ir",
+      "subscriptionPlan": "Enterprise",
+      "subscriptionActive": true,
+      "notes": "کتابخانه اختصاصی کالکشن آریا و پذیرایی مدرن",
+      "createdAt": "2026-09-12T08:00:00Z"
+    },
+    {
+      "id": "comp-tol",
+      "code": "TOL",
+      "name": "تولیکا",
+      "englishFolder": "TOL-Tolica",
+      "contactName": "سارا رادمنش",
+      "contactPhone": "021-22670914",
+      "contactEmail": "catalog@tolica.ir",
+      "adminEmail": "sara@tolica.ir",
+      "subscriptionPlan": "Studio Pro",
+      "subscriptionActive": true,
+      "notes": "میزهای ناهارخوری چوب گردو و سرویس خواب",
+      "createdAt": "2026-10-01T10:30:00Z"
+    },
+    {
+      "id": "comp-dgt",
+      "code": "DGT",
+      "name": "نورپردازی دقت",
+      "englishFolder": "DGT-Deghat",
+      "contactName": "امیرحسین مرادی",
+      "contactPhone": "021-66904411",
+      "contactEmail": "3d@deghatlight.ir",
+      "adminEmail": "amir@deghatlight.ir",
+      "subscriptionPlan": "Studio Pro",
+      "subscriptionActive": true,
+      "notes": "چراغ‌های ایستاده برنجی و مرمر",
+      "createdAt": "2026-10-18T12:15:00Z"
+    },
+    {
+      "id": "comp-general",
+      "code": "GENERAL",
+      "name": "کتابخانه عمومی چیدو",
+      "englishFolder": "GENERAL",
+      "contactName": "تیم محتوای چیدو",
+      "contactPhone": "021-91003400",
+      "contactEmail": "library@chido.ir",
+      "adminEmail": "core@chido.ir",
+      "subscriptionPlan": "Internal",
+      "subscriptionActive": true,
+      "notes": "اقلام دکوراتیو عمومی قابل استفاده در همه نمایشگاه‌ها",
+      "createdAt": "2026-08-01T00:00:00Z"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set-aria",
+      "companyId": "comp-dan",
+      "name": "ست مبل ۳-۱-۱ آریا",
+      "category": "پذیرایی",
+      "productIds": [
+        "prod-dan-0042",
+        "prod-dan-0043"
+      ]
+    },
+    {
+      "id": "set-fluted",
+      "companyId": "comp-tol",
+      "name": "ست ناهارخوری گردو شیاردار",
+      "category": "ناهارخوری",
+      "productIds": [
+        "prod-tol-0108"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-dan-0042",
+      "code": "DAN-0042",
+      "companyId": "comp-dan",
+      "categoryFolder": "Living Room",
+      "setFolder": "Aria Set",
+      "name": "مبل سه‌نفره آریا",
+      "coverImageUrl": "/src/assets/images/sofa_aria_three_seater_1794993401647.jpg",
+      "tags": [
+        "پذیرایی",
+        "راحتی",
+        "مدرن",
+        "سه‌نفره",
+        "کالکشن آریا"
+      ],
+      "modelingStatus": "blender_refine",
+      "localFolderRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042",
+      "lastTripoFile": "DAN-0042_tripo_7210.glb",
+      "lastBlenderFile": "DAN-0042_scene.blend.json",
+      "lastGlbFile": "DAN-0042_tripo_7210.glb",
+      "activeOnlineRevision": "R02",
+      "revisions": [
+        {
+          "id": "rev-prod-dan-0042-r01",
+          "productId": "prod-dan-0042",
+          "version": "R01",
+          "source": "tripo",
+          "fileName": "DAN-0042_tripo_raw.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "sizeBytes": 15480,
+          "status": "local",
+          "notes": "خروجی اولیه دریافت‌شده از Tripo",
+          "createdAt": "2026-11-15T11:20:00Z",
+          "isActiveOnline": false
+        },
+        {
+          "id": "rev-prod-dan-0042-r02",
+          "productId": "prod-dan-0042",
+          "version": "R02",
+          "source": "blender",
+          "fileName": "DAN-0042_R02_final.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "sizeBytes": 15480,
+          "status": "published",
+          "notes": "اصلاح ابعاد، AO و متریال چوب در Blender",
+          "createdAt": "2026-11-17T16:40:00Z",
+          "isActiveOnline": true
+        },
+        {
+          "id": "rev-prod-dan-0042-r03",
+          "productId": "prod-dan-0042",
+          "version": "R03",
+          "source": "blender",
+          "fileName": "DAN-0042_R02_final.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "sizeBytes": 15480,
+          "status": "pending_approval",
+          "notes": "کاهش حجم تکسچر پارچه بوکله و تنظیم سایه کف",
+          "createdAt": "2026-11-18T00:50:00Z",
+          "isActiveOnline": false
+        },
+        {
+          "id": "rev-1794993897215",
+          "productId": "prod-dan-0042",
+          "version": "R04",
+          "source": "tripo",
+          "fileName": "DAN-0042_tripo_7210.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb",
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "sizeBytes": 15480,
+          "status": "local",
+          "notes": "دریافت خودکار از Tripo",
+          "createdAt": "2026-11-18T09:24:57.215Z",
+          "isActiveOnline": false
+        }
+      ],
+      "files": [
+        {
+          "id": "file-prod-dan-0042-ref1",
+          "productId": "prod-dan-0042",
+          "subfolder": "References",
+          "fileName": "DAN-0042_reference.jpg",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/References/DAN-0042_reference.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 760391,
+          "sha256": "c20f90cb6816c229a39d27426abf58acbe814a2113ed80cca1d2dce07b74da1e",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0042-ai1",
+          "productId": "prod-dan-0042",
+          "subfolder": "AI Images",
+          "fileName": "DAN-0042_chatgpt_cutout.png",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_cutout.png",
+          "mimeType": "image/png",
+          "sizeBytes": 1201,
+          "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+          "originUrl": "https://chatgpt.com",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0042-tripo1",
+          "productId": "prod-dan-0042",
+          "subfolder": "Tripo",
+          "fileName": "DAN-0042_tripo_raw.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 15480,
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "originUrl": "https://www.tripo3d.ai",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0042-exp2",
+          "productId": "prod-dan-0042",
+          "subfolder": "Exports",
+          "fileName": "DAN-0042_R02_final.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 15480,
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0042-blend1",
+          "productId": "prod-dan-0042",
+          "subfolder": "Blender",
+          "fileName": "DAN-0042_scene.blend.json",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Blender/DAN-0042_scene.blend.json",
+          "mimeType": "application/json",
+          "sizeBytes": 94,
+          "sha256": "1d95051020dfcebcadafa37fe993a5f7366771ef8f21889ebc7e0e6f6af1080c",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-1794993897215",
+          "productId": "prod-dan-0042",
+          "subfolder": "Tripo",
+          "fileName": "DAN-0042_tripo_7210.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 15480,
+          "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+          "originUrl": "https://www.tripo3d.ai",
+          "convertedFromPng": false,
+          "createdAt": "2026-11-18T09:24:57.215Z"
+        },
+        {
+          "id": "file-1794993897512",
+          "productId": "prod-dan-0042",
+          "subfolder": "AI Images",
+          "fileName": "captured_ai_image.jpg",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/captured_ai_image.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 9928,
+          "sha256": "e9534ccaaea0bdb87d6634de819352419cb3cdbe9a09226a1a8dfeeb7d3db33b",
+          "convertedFromPng": true,
+          "createdAt": "2026-11-18T09:24:57.512Z"
+        },
+        {
+          "id": "file-1795000491154",
+          "productId": "prod-dan-0042",
+          "subfolder": "AI Images",
+          "fileName": "DAN-0042_chatgpt_9658.jpg",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_9658.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 11579,
+          "sha256": "6dddbeb2b01d8c73e53a01fcdd90c4c44d4ecd171b82c4bf2cd27b32a1370112",
+          "originUrl": "https://chatgpt.com",
+          "convertedFromPng": true,
+          "createdAt": "2026-11-18T11:14:51.154Z"
+        }
+      ],
+      "updatedAt": "2026-11-18T11:14:52.643Z",
+      "reviewMessageStatus": "message_received",
+      "reviewMessage": "کلاینت پیام داده: پایه‌های چوب گردو کمی تیره‌تر شود و بافت بوکله برجسته‌تر بماند.",
+      "studioNote": "آماده برای اصلاح در Blender R03"
+    },
+    {
+      "id": "prod-dan-0043",
+      "code": "DAN-0043",
+      "companyId": "comp-dan",
+      "categoryFolder": "Living Room",
+      "setFolder": "Aria Set",
+      "name": "مبل تک‌نفره آریا",
+      "coverImageUrl": "/src/assets/images/armchair_aria_lounge_1794993412009.jpg",
+      "tags": [
+        "پذیرایی",
+        "تک‌نفره",
+        "چوب گردو",
+        "کالکشن آریا"
+      ],
+      "modelingStatus": "pending_approval",
+      "localFolderRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043",
+      "lastTripoFile": "DAN-0043_tripo_raw.glb",
+      "lastBlenderFile": "DAN-0043_scene.blend.json",
+      "lastGlbFile": "DAN-0043_R02_final.glb",
+      "activeOnlineRevision": "R01",
+      "revisions": [
+        {
+          "id": "rev-prod-dan-0043-r01",
+          "productId": "prod-dan-0043",
+          "version": "R01",
+          "source": "tripo",
+          "fileName": "DAN-0043_tripo_raw.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/Tripo/DAN-0043_tripo_raw.glb",
+          "sha256": "f7179968d3eb477e7bd800fc3079026048d68659484ea6554896a875e62a509b",
+          "sizeBytes": 7136,
+          "status": "published",
+          "notes": "خروجی اولیه دریافت‌شده از Tripo",
+          "createdAt": "2026-11-15T11:20:00Z",
+          "isActiveOnline": true
+        }
+      ],
+      "files": [
+        {
+          "id": "file-prod-dan-0043-ref1",
+          "productId": "prod-dan-0043",
+          "subfolder": "References",
+          "fileName": "DAN-0043_reference.jpg",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/References/DAN-0043_reference.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 625385,
+          "sha256": "4044b74d450723adbf2a3c43b421160175b54586365aa934ee5db8657102ad72",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0043-ai1",
+          "productId": "prod-dan-0043",
+          "subfolder": "AI Images",
+          "fileName": "DAN-0043_chatgpt_cutout.png",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/AI Images/DAN-0043_chatgpt_cutout.png",
+          "mimeType": "image/png",
+          "sizeBytes": 1201,
+          "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+          "originUrl": "https://chatgpt.com",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0043-tripo1",
+          "productId": "prod-dan-0043",
+          "subfolder": "Tripo",
+          "fileName": "DAN-0043_tripo_raw.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/Tripo/DAN-0043_tripo_raw.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 7136,
+          "sha256": "f7179968d3eb477e7bd800fc3079026048d68659484ea6554896a875e62a509b",
+          "originUrl": "https://www.tripo3d.ai",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0043-exp2",
+          "productId": "prod-dan-0043",
+          "subfolder": "Exports",
+          "fileName": "DAN-0043_R02_final.glb",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/Exports/DAN-0043_R02_final.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 7136,
+          "sha256": "f7179968d3eb477e7bd800fc3079026048d68659484ea6554896a875e62a509b",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dan-0043-blend1",
+          "productId": "prod-dan-0043",
+          "subfolder": "Blender",
+          "fileName": "DAN-0043_scene.blend.json",
+          "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0043/Blender/DAN-0043_scene.blend.json",
+          "mimeType": "application/json",
+          "sizeBytes": 98,
+          "sha256": "2b8b65fec1e41f811fa65f5980fb96601d0202d827eedb4cbae12a57677846ce",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        }
+      ],
+      "updatedAt": "2026-11-18T09:24:11.506Z",
+      "reviewMessageStatus": "revision_needed",
+      "reviewMessage": "نیاز به بررسی زاویه نشیمن و ضخامت دسته پیش از انتشار نهایی.",
+      "studioNote": "پس از تأیید مهندس دانشور هم‌زمان با مبل سه‌نفره منتشر شود."
+    },
+    {
+      "id": "prod-tol-0108",
+      "code": "TOL-0108",
+      "companyId": "comp-tol",
+      "categoryFolder": "Dining",
+      "setFolder": "Fluted Series",
+      "name": "میز ناهارخوری گردو شیاردار",
+      "coverImageUrl": "/src/assets/images/dining_table_tolica_walnut_1794993402446.jpg",
+      "tags": [
+        "ناهارخوری",
+        "چوب گردو",
+        "هشت‌نفره"
+      ],
+      "modelingStatus": "blender_refine",
+      "localFolderRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108",
+      "lastTripoFile": "TOL-0108_tripo_raw.glb",
+      "lastBlenderFile": "TOL-0108_scene.blend.json",
+      "lastGlbFile": "TOL-0108_R02_blender.glb",
+      "activeOnlineRevision": null,
+      "revisions": [
+        {
+          "id": "rev-prod-tol-0108-r01",
+          "productId": "prod-tol-0108",
+          "version": "R01",
+          "source": "tripo",
+          "fileName": "TOL-0108_tripo_raw.glb",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Tripo/TOL-0108_tripo_raw.glb",
+          "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+          "sizeBytes": 5796,
+          "status": "local",
+          "notes": "خروجی اولیه دریافت‌شده از Tripo",
+          "createdAt": "2026-11-15T11:20:00Z",
+          "isActiveOnline": false
+        },
+        {
+          "id": "rev-1795000569954-kf7",
+          "productId": "prod-tol-0108",
+          "version": "R02",
+          "source": "blender",
+          "fileName": "TOL-0108_R02_blender.glb",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_blender.glb",
+          "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+          "sizeBytes": 5796,
+          "status": "ready_to_upload",
+          "notes": "آماده‌سازی دسته‌ای Blender (اصلاح مقیاس و متریال)",
+          "createdAt": "2026-11-18T11:16:09.952Z",
+          "isActiveOnline": false
+        }
+      ],
+      "files": [
+        {
+          "id": "file-prod-tol-0108-ref1",
+          "productId": "prod-tol-0108",
+          "subfolder": "References",
+          "fileName": "TOL-0108_reference.jpg",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/References/TOL-0108_reference.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 678827,
+          "sha256": "bc69b86bec1e204daa2d3e47a46f650adbc5b77716c439f68bd92a1c1f3d41eb",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-tol-0108-ai1",
+          "productId": "prod-tol-0108",
+          "subfolder": "AI Images",
+          "fileName": "TOL-0108_chatgpt_cutout.png",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/AI Images/TOL-0108_chatgpt_cutout.png",
+          "mimeType": "image/png",
+          "sizeBytes": 1201,
+          "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+          "originUrl": "https://chatgpt.com",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-tol-0108-tripo1",
+          "productId": "prod-tol-0108",
+          "subfolder": "Tripo",
+          "fileName": "TOL-0108_tripo_raw.glb",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Tripo/TOL-0108_tripo_raw.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 5796,
+          "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+          "originUrl": "https://www.tripo3d.ai",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-tol-0108-exp2",
+          "productId": "prod-tol-0108",
+          "subfolder": "Exports",
+          "fileName": "TOL-0108_R02_final.glb",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_final.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 5796,
+          "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-tol-0108-blend1",
+          "productId": "prod-tol-0108",
+          "subfolder": "Blender",
+          "fileName": "TOL-0108_scene.blend.json",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Blender/TOL-0108_scene.blend.json",
+          "mimeType": "application/json",
+          "sizeBytes": 95,
+          "sha256": "a854d10835e3b59ad1c442099dce11fab8dd8b8381df732c686e1a7b5b1c8164",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-1795000569954-oqu",
+          "productId": "prod-tol-0108",
+          "subfolder": "Exports",
+          "fileName": "TOL-0108_R02_blender.glb",
+          "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_blender.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 5796,
+          "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+          "createdAt": "2026-11-18T11:16:09.952Z"
+        }
+      ],
+      "updatedAt": "2026-11-18T11:16:09.952Z",
+      "reviewMessageStatus": "no_message",
+      "reviewMessage": "",
+      "studioNote": "آماده ورود به Blender برای تنظیم ابعاد واقعی میز ۲۲۰ سانتی."
+    },
+    {
+      "id": "prod-dgt-0019",
+      "code": "DGT-0019",
+      "companyId": "comp-dgt",
+      "categoryFolder": "Lighting",
+      "setFolder": "Brass Line",
+      "name": "آباژور ایستاده برنج و مرمر",
+      "coverImageUrl": "/src/assets/images/floor_lamp_deghat_brass_1794993403222.jpg",
+      "tags": [
+        "نورپردازی",
+        "برنج",
+        "مدرن"
+      ],
+      "modelingStatus": "published",
+      "localFolderRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019",
+      "lastTripoFile": "DGT-0019_tripo_raw.glb",
+      "lastBlenderFile": "DGT-0019_scene.blend.json",
+      "lastGlbFile": "DGT-0019_R02_final.glb",
+      "activeOnlineRevision": "R02",
+      "revisions": [
+        {
+          "id": "rev-prod-dgt-0019-r01",
+          "productId": "prod-dgt-0019",
+          "version": "R01",
+          "source": "tripo",
+          "fileName": "DGT-0019_tripo_raw.glb",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/Tripo/DGT-0019_tripo_raw.glb",
+          "sha256": "d577b5bac4ede864baee2c87689ae79fbb08cfa08ac70d0469f7eeb047b228a3",
+          "sizeBytes": 5752,
+          "status": "local",
+          "notes": "خروجی اولیه دریافت‌شده از Tripo",
+          "createdAt": "2026-11-15T11:20:00Z",
+          "isActiveOnline": false
+        },
+        {
+          "id": "rev-prod-dgt-0019-r02",
+          "productId": "prod-dgt-0019",
+          "version": "R02",
+          "source": "blender",
+          "fileName": "DGT-0019_R02_final.glb",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/Exports/DGT-0019_R02_final.glb",
+          "sha256": "d577b5bac4ede864baee2c87689ae79fbb08cfa08ac70d0469f7eeb047b228a3",
+          "sizeBytes": 5752,
+          "status": "published",
+          "notes": "اصلاح ابعاد، AO و متریال چوب در Blender",
+          "createdAt": "2026-11-17T16:40:00Z",
+          "isActiveOnline": true
+        }
+      ],
+      "files": [
+        {
+          "id": "file-prod-dgt-0019-ref1",
+          "productId": "prod-dgt-0019",
+          "subfolder": "References",
+          "fileName": "DGT-0019_reference.jpg",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/References/DGT-0019_reference.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 560023,
+          "sha256": "8108ab2fcf7ca16bd6ac6dd17a3a270070a464075b9d9777386941216b54e8ca",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dgt-0019-ai1",
+          "productId": "prod-dgt-0019",
+          "subfolder": "AI Images",
+          "fileName": "DGT-0019_chatgpt_cutout.png",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/AI Images/DGT-0019_chatgpt_cutout.png",
+          "mimeType": "image/png",
+          "sizeBytes": 1201,
+          "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+          "originUrl": "https://chatgpt.com",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dgt-0019-tripo1",
+          "productId": "prod-dgt-0019",
+          "subfolder": "Tripo",
+          "fileName": "DGT-0019_tripo_raw.glb",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/Tripo/DGT-0019_tripo_raw.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 5752,
+          "sha256": "d577b5bac4ede864baee2c87689ae79fbb08cfa08ac70d0469f7eeb047b228a3",
+          "originUrl": "https://www.tripo3d.ai",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dgt-0019-exp2",
+          "productId": "prod-dgt-0019",
+          "subfolder": "Exports",
+          "fileName": "DGT-0019_R02_final.glb",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/Exports/DGT-0019_R02_final.glb",
+          "mimeType": "model/gltf-binary",
+          "sizeBytes": 5752,
+          "sha256": "d577b5bac4ede864baee2c87689ae79fbb08cfa08ac70d0469f7eeb047b228a3",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        },
+        {
+          "id": "file-prod-dgt-0019-blend1",
+          "productId": "prod-dgt-0019",
+          "subfolder": "Blender",
+          "fileName": "DGT-0019_scene.blend.json",
+          "diskRelativePath": "DGT-Deghat/Lighting/Brass Line/DGT-0019/Blender/DGT-0019_scene.blend.json",
+          "mimeType": "application/json",
+          "sizeBytes": 94,
+          "sha256": "db9c7b40b82a189ab084d2ee934beff13e341f4a3be7313325dd377086ac0a8d",
+          "createdAt": "2026-11-18T09:24:11.506Z"
+        }
+      ],
+      "updatedAt": "2026-11-18T09:24:11.506Z",
+      "reviewMessageStatus": "message_received",
+      "reviewMessage": "تأیید نهایی کلاینت ثبت شد؛ کیفیت برنج و مرمر مورد تأیید است.",
+      "studioNote": "در کتابخانه آنلاین دقت با کد R02 منتشر شد."
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-101",
+      "requestCode": "REQ-2026-101",
+      "companyId": "comp-dan",
+      "productId": "prod-dan-0042",
+      "title": "مدلسازی مبل سه‌نفره آریا با پارچه بوکله کرم",
+      "category": "پذیرایی",
+      "priority": "urgent",
+      "status": "in_modeling",
+      "feeToman": 4500000,
+      "clientImages": [
+        {
+          "id": "rimg-1",
+          "fileName": "aria_front_studio.jpg",
+          "previewUrl": "/src/assets/images/sofa_aria_three_seater_1794993401647.jpg",
+          "status": "approved",
+          "downloadedToProject": true
+        },
+        {
+          "id": "rimg-2",
+          "fileName": "aria_lounge_angle.jpg",
+          "previewUrl": "/src/assets/images/armchair_aria_lounge_1794993412009.jpg",
+          "status": "pending",
+          "downloadedToProject": false
+        }
+      ],
+      "createdAt": "2026-11-16T09:15:00Z",
+      "reviewMessageStatus": "message_received",
+      "reviewMessage": "کلاینت پیام داده: پایه‌های چوب گردو کمی تیره‌تر شود و بافت بوکله برجسته‌تر بماند.",
+      "studioNote": "آماده برای اصلاح در Blender R03"
+    },
+    {
+      "id": "req-102",
+      "requestCode": "REQ-2026-102",
+      "companyId": "comp-tol",
+      "productId": "prod-tol-0108",
+      "title": "میز ناهارخوری گردو ۸ نفره سری Fluted",
+      "category": "ناهارخوری",
+      "priority": "normal",
+      "status": "in_modeling",
+      "feeToman": 5200000,
+      "clientImages": [
+        {
+          "id": "rimg-3",
+          "fileName": "tolica_walnut_main.jpg",
+          "previewUrl": "/src/assets/images/dining_table_tolica_walnut_1794993402446.jpg",
+          "status": "pending",
+          "downloadedToProject": false
+        }
+      ],
+      "createdAt": "2026-11-17T14:20:00Z",
+      "reviewMessageStatus": "no_message",
+      "reviewMessage": "",
+      "studioNote": "آماده ورود به Blender برای تنظیم ابعاد واقعی میز ۲۲۰ سانتی."
+    },
+    {
+      "id": "req-103",
+      "requestCode": "REQ-2026-103",
+      "companyId": "comp-dgt",
+      "productId": "prod-dgt-0019",
+      "title": "آباژور ایستاده برنج و سنگ مرمر",
+      "category": "نورپردازی",
+      "priority": "low",
+      "status": "completed",
+      "feeToman": 2800000,
+      "clientImages": [
+        {
+          "id": "rimg-4",
+          "fileName": "deghat_lamp.jpg",
+          "previewUrl": "/src/assets/images/floor_lamp_deghat_brass_1794993403222.jpg",
+          "status": "approved",
+          "downloadedToProject": true
+        }
+      ],
+      "createdAt": "2026-11-12T11:00:00Z",
+      "reviewMessageStatus": "message_received",
+      "reviewMessage": "تأیید نهایی کلاینت ثبت شد؛ کیفیت برنج و مرمر مورد تأیید است.",
+      "studioNote": "در کتابخانه آنلاین دقت با کد R02 منتشر شد."
+    }
+  ],
+  "transfers": [
+    {
+      "id": "tr-1795000491010",
+      "direction": "download",
+      "sourceLabel": "ChatGPT",
+      "fileName": "DAN-0042_chatgpt_9658.jpg",
+      "lockedProjectId": "prod-dan-0042",
+      "lockedCompanyCode": "DAN",
+      "lockedProductCode": "DAN-0042",
+      "targetSubfolder": "AI Images",
+      "status": "completed",
+      "progress": 100,
+      "sizeBytes": 11579,
+      "stagedTempPath": "_Staging/tr-1795000491010-DAN-0042_chatgpt_9658.png.part",
+      "finalDiskPath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_9658.jpg",
+      "createdAt": "2026-11-18T11:14:51.011Z",
+      "sha256": "6dddbeb2b01d8c73e53a01fcdd90c4c44d4ecd171b82c4bf2cd27b32a1370112"
+    },
+    {
+      "id": "tr-1794993897213",
+      "direction": "download",
+      "sourceLabel": "Tripo",
+      "fileName": "DAN-0042_tripo_7210.glb",
+      "lockedProjectId": "prod-dan-0042",
+      "lockedCompanyCode": "DAN",
+      "lockedProductCode": "DAN-0042",
+      "targetSubfolder": "Tripo",
+      "status": "completed",
+      "progress": 100,
+      "sizeBytes": 15480,
+      "stagedTempPath": "_Staging/tr-1794993897213-DAN-0042_tripo_7210.glb.part",
+      "finalDiskPath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb",
+      "createdAt": "2026-11-18T09:24:57.214Z",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894"
+    },
+    {
+      "id": "tr-init-1",
+      "direction": "download",
+      "sourceLabel": "Tripo",
+      "fileName": "DAN-0042_tripo_raw.glb",
+      "lockedProjectId": "prod-dan-0042",
+      "lockedCompanyCode": "DAN",
+      "lockedProductCode": "DAN-0042",
+      "targetSubfolder": "Tripo",
+      "status": "completed",
+      "progress": 100,
+      "sizeBytes": 15480,
+      "stagedTempPath": "_Staging/tr-init-1.part",
+      "finalDiskPath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "createdAt": "2026-11-15T11:20:00Z"
+    },
+    {
+      "id": "tr-init-2",
+      "direction": "upload",
+      "sourceLabel": "CHIDO Cloud",
+      "fileName": "DAN-0042_R02_final.glb",
+      "lockedProjectId": "prod-dan-0042",
+      "lockedCompanyCode": "DAN",
+      "lockedProductCode": "DAN-0042",
+      "targetSubfolder": "Exports",
+      "status": "published",
+      "progress": 100,
+      "sizeBytes": 15480,
+      "stagedTempPath": "_Staging/tr-init-2.part",
+      "finalDiskPath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+      "createdAt": "2026-11-17T16:45:00Z"
+    }
+  ],
+  "browserTabs": [
+    {
+      "id": "tab-chido",
+      "title": "CHIDO Portal",
+      "url": "https://chido.ir/admin",
+      "iconKey": "chido",
+      "isPinned": true,
+      "lastProbed": null
+    },
+    {
+      "id": "tab-tripo",
+      "title": "Tripo 3D",
+      "url": "https://www.tripo3d.ai/app",
+      "iconKey": "tripo",
+      "isPinned": true,
+      "lastProbed": {
+        "url": "https://www.tripo3d.ai/app",
+        "reachable": true,
+        "statusCode": 403,
+        "xFrameOptions": "SAMEORIGIN",
+        "cspFrameAncestors": null,
+        "iframeEmbeddable": false,
+        "requiresNativeWebContents": true,
+        "reason": "سایت به دلیل هدر X-Frame-Options: SAMEORIGIN اجازه نمایش داخل iframe وب را نمی‌دهد و نیازمند موتور بومی Chromium (Electron WebContentsView / WebView2) است.",
+        "probedAt": "2026-11-18T09:24:56.962Z"
+      }
+    },
+    {
+      "id": "tab-chatgpt",
+      "title": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "iconKey": "chatgpt",
+      "isPinned": true,
+      "lastProbed": null
+    },
+    {
+      "id": "tab-google",
+      "title": "Google",
+      "url": "https://www.google.com",
+      "iconKey": "google",
+      "isPinned": false,
+      "lastProbed": null
+    }
+  ],
+  "activeBrowserTabId": "tab-tripo",
+  "siteScripts": [
+    {
+      "id": "script-tripo-helper",
+      "name": "Tripo Download & Mesh Inspector Helper",
+      "domainPattern": "tripo3d.ai",
+      "enabled": true,
+      "runAt": "document-idle",
+      "code": "// Runs inside Electron WebContentsView on tripo3d.ai\nwindow.addEventListener('click', (e) => {\n  const btn = e.target.closest('button');\n  if (btn && /download|export/i.test(btn.textContent || '')) {\n    console.log('[CHIDO Bridge] Detected Tripo download trigger');\n  }\n});",
+      "lastRunAt": "2026-11-17T16:10:00Z",
+      "lastError": null
+    },
+    {
+      "id": "script-chatgpt-image-hook",
+      "name": "ChatGPT High-Res Image Hook",
+      "domainPattern": "chatgpt.com",
+      "enabled": true,
+      "runAt": "document-idle",
+      "code": "// Detects generated image containers for 1-click capture to Active Project\nconsole.log('[CHIDO Bridge] ChatGPT image capture listener attached');",
+      "lastRunAt": null,
+      "lastError": null
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1",
+      "invoiceNumber": "INV-1405-081",
+      "companyId": "comp-dan",
+      "requestId": "req-101",
+      "title": "پیش‌فاکتور مدلسازی ست آریا (سه‌نفره و تک‌نفره)",
+      "amountToman": 8500000,
+      "paidToman": 5000000,
+      "kind": "proforma",
+      "status": "partial",
+      "issuedAt": "2026-11-14T10:00:00Z"
+    },
+    {
+      "id": "inv-2",
+      "invoiceNumber": "INV-1405-082",
+      "companyId": "comp-tol",
+      "requestId": "req-102",
+      "title": "هزینه مدلسازی میز ناهارخوری گردو شیاردار",
+      "amountToman": 5200000,
+      "paidToman": 0,
+      "kind": "proforma",
+      "status": "unpaid",
+      "issuedAt": "2026-11-17T14:30:00Z"
+    },
+    {
+      "id": "inv-3",
+      "invoiceNumber": "INV-1405-076",
+      "companyId": "comp-dgt",
+      "requestId": "req-103",
+      "title": "تسویه کامل آباژور ایستاده برنج و مرمر",
+      "amountToman": 2800000,
+      "paidToman": 2800000,
+      "kind": "final",
+      "status": "paid",
+      "issuedAt": "2026-11-12T12:00:00Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1795000569955-ziau",
+      "actor": "Batch Pipeline",
+      "category": "cloud",
+      "message": "عملیات دسته‌ای (blender_prep) روی 1 مدل اجرا شد: TOL-0108",
+      "createdAt": "2026-11-18T11:16:09.955Z"
+    },
+    {
+      "id": "log-1795000492644-1sjs",
+      "actor": "Review & Notes",
+      "category": "project",
+      "message": "پیام ریویو و یادداشت DAN-0042 به‌روزرسانی شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T11:14:52.644Z"
+    },
+    {
+      "id": "log-1795000491155-65r7",
+      "actor": "ChatGPT",
+      "category": "browser",
+      "message": "دانلود DAN-0042_chatgpt_9658.jpg با قفل پروژه DAN-0042 در DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_9658.jpg ذخیره شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T11:14:51.155Z"
+    },
+    {
+      "id": "log-1795000487378-oagf",
+      "actor": "Settings",
+      "category": "project",
+      "message": "تنظیمات محیط کار و تبدیل تصویر به‌روزرسانی شد.",
+      "createdAt": "2026-11-18T11:14:47.378Z"
+    },
+    {
+      "id": "log-1795000483652-gjaw",
+      "actor": "Settings",
+      "category": "project",
+      "message": "تنظیمات محیط کار و تبدیل تصویر به‌روزرسانی شد.",
+      "createdAt": "2026-11-18T11:14:43.652Z"
+    },
+    {
+      "id": "log-1794994472275-7xoj",
+      "actor": "Blender Bridge",
+      "category": "blender",
+      "message": "فایل DAN-0042_tripo_raw.glb آماده اجرا در Blender شد (مانیفست: chido_active_project.json).",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T09:34:32.275Z"
+    },
+    {
+      "id": "log-1794994464594-xykj",
+      "actor": "Studio",
+      "category": "project",
+      "message": "پروژه فعال روی DAN-0042 (مبل سه‌نفره آریا) تنظیم شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T09:34:24.594Z"
+    },
+    {
+      "id": "log-1794993904392-xk8c",
+      "actor": "Studio",
+      "category": "project",
+      "message": "پروژه فعال روی TOL-0108 (میز ناهارخوری گردو شیاردار) تنظیم شد.",
+      "projectCode": "TOL-0108",
+      "createdAt": "2026-11-18T09:25:04.392Z"
+    },
+    {
+      "id": "log-1794993897512-u62u",
+      "actor": "Image Pipeline",
+      "category": "browser",
+      "message": "تبدیل captured_ai_image.png به captured_ai_image.jpg با کیفیت 92% (10 KB).",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T09:24:57.512Z"
+    },
+    {
+      "id": "log-1794993897216-3d4f",
+      "actor": "Tripo",
+      "category": "browser",
+      "message": "دانلود DAN-0042_tripo_7210.glb با قفل پروژه DAN-0042 در DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb ذخیره شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T09:24:57.216Z"
+    },
+    {
+      "id": "log-1794993896968-z4c3",
+      "actor": "Browser Probe",
+      "category": "browser",
+      "message": "بررسی سازگاری https://www.tripo3d.ai/app: وضعیت 403 | نیاز به WebContentsView: بله",
+      "createdAt": "2026-11-18T09:24:56.968Z"
+    },
+    {
+      "id": "log-1",
+      "actor": "ادریس (Studio Admin)",
+      "category": "project",
+      "message": "پروژه فعال روی DAN-0042 (مبل سه‌نفره آریا) قفل شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T00:45:00Z"
+    },
+    {
+      "id": "log-2",
+      "actor": "Blender Bridge",
+      "category": "blender",
+      "message": "ریویژن R03 از خروجی Blender در مسیر Exports ثبت شد.",
+      "projectCode": "DAN-0042",
+      "createdAt": "2026-11-18T00:50:00Z"
+    },
+    {
+      "id": "log-3",
+      "actor": "Transfer Manager",
+      "category": "cloud",
+      "message": "نسخه R02 برای محصول DGT-0019 در کتابخانه دقت منتشر شد.",
+      "projectCode": "DGT-0019",
+      "createdAt": "2026-11-16T18:05:00Z"
+    }
+  ],
+  "settings": {
+    "storageRootPath": "/app/applet/chido-assets",
+    "blenderExecutablePath": "C:\\Program Files\\Blender Foundation\\Blender 4.2\\blender.exe",
+    "chidoBackendUrl": "https://api.chido.ir/v1",
+    "defaultJpgQuality": 92,
+    "defaultMaxSizeKb": 450,
+    "keepOriginalPng": false,
+    "transparentBgHex": "#FFFFFF",
+    "autoConvertPngToJpg": true,
+    "autoOpenDevToolsShortcut": "F12",
+    "theme": "charcoal"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "internalId": "prod-dan-0042",
+  "code": "DAN-0042",
+  "companyId": "comp-dan",
+  "name": "مبل سه‌نفره آریا",
+  "categoryFolder": "Living Room",
+  "setFolder": "Aria Set",
+  "tags": [
+    "پذیرایی",
+    "راحتی",
+    "مدرن",
+    "سه‌نفره",
+    "کالکشن آریا"
+  ],
+  "modelingStatus": "blender_refine",
+  "activeOnlineRevision": "R02",
+  "revisions": [
+    {
+      "id": "rev-prod-dan-0042-r01",
+      "productId": "prod-dan-0042",
+      "version": "R01",
+      "source": "tripo",
+      "fileName": "DAN-0042_tripo_raw.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "sizeBytes": 15480,
+      "status": "local",
+      "notes": "خروجی اولیه دریافت‌شده از Tripo",
+      "createdAt": "2026-11-15T11:20:00Z",
+      "isActiveOnline": false
+    },
+    {
+      "id": "rev-prod-dan-0042-r02",
+      "productId": "prod-dan-0042",
+      "version": "R02",
+      "source": "blender",
+      "fileName": "DAN-0042_R02_final.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "sizeBytes": 15480,
+      "status": "published",
+      "notes": "اصلاح ابعاد، AO و متریال چوب در Blender",
+      "createdAt": "2026-11-17T16:40:00Z",
+      "isActiveOnline": true
+    },
+    {
+      "id": "rev-prod-dan-0042-r03",
+      "productId": "prod-dan-0042",
+      "version": "R03",
+      "source": "blender",
+      "fileName": "DAN-0042_R02_final.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "sizeBytes": 15480,
+      "status": "pending_approval",
+      "notes": "کاهش حجم تکسچر پارچه بوکله و تنظیم سایه کف",
+      "createdAt": "2026-11-18T00:50:00Z",
+      "isActiveOnline": false
+    },
+    {
+      "id": "rev-1794993897215",
+      "productId": "prod-dan-0042",
+      "version": "R04",
+      "source": "tripo",
+      "fileName": "DAN-0042_tripo_7210.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb",
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "sizeBytes": 15480,
+      "status": "local",
+      "notes": "دریافت خودکار از Tripo",
+      "createdAt": "2026-11-18T09:24:57.215Z",
+      "isActiveOnline": false
+    }
+  ],
+  "files": [
+    {
+      "id": "file-prod-dan-0042-ref1",
+      "productId": "prod-dan-0042",
+      "subfolder": "References",
+      "fileName": "DAN-0042_reference.jpg",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/References/DAN-0042_reference.jpg",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 760391,
+      "sha256": "c20f90cb6816c229a39d27426abf58acbe814a2113ed80cca1d2dce07b74da1e",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-dan-0042-ai1",
+      "productId": "prod-dan-0042",
+      "subfolder": "AI Images",
+      "fileName": "DAN-0042_chatgpt_cutout.png",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_cutout.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1201,
+      "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+      "originUrl": "https://chatgpt.com",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-dan-0042-tripo1",
+      "productId": "prod-dan-0042",
+      "subfolder": "Tripo",
+      "fileName": "DAN-0042_tripo_raw.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 15480,
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "originUrl": "https://www.tripo3d.ai",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-dan-0042-exp2",
+      "productId": "prod-dan-0042",
+      "subfolder": "Exports",
+      "fileName": "DAN-0042_R02_final.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports/DAN-0042_R02_final.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 15480,
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-dan-0042-blend1",
+      "productId": "prod-dan-0042",
+      "subfolder": "Blender",
+      "fileName": "DAN-0042_scene.blend.json",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Blender/DAN-0042_scene.blend.json",
+      "mimeType": "application/json",
+      "sizeBytes": 94,
+      "sha256": "1d95051020dfcebcadafa37fe993a5f7366771ef8f21889ebc7e0e6f6af1080c",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-1794993897215",
+      "productId": "prod-dan-0042",
+      "subfolder": "Tripo",
+      "fileName": "DAN-0042_tripo_7210.glb",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_7210.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 15480,
+      "sha256": "6c14818c4ef40e443001f7698b5c72c6b36effadc909ea914a84bcf36837c894",
+      "originUrl": "https://www.tripo3d.ai",
+      "convertedFromPng": false,
+      "createdAt": "2026-11-18T09:24:57.215Z"
+    },
+    {
+      "id": "file-1794993897512",
+      "productId": "prod-dan-0042",
+      "subfolder": "AI Images",
+      "fileName": "captured_ai_image.jpg",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/captured_ai_image.jpg",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 9928,
+      "sha256": "e9534ccaaea0bdb87d6634de819352419cb3cdbe9a09226a1a8dfeeb7d3db33b",
+      "convertedFromPng": true,
+      "createdAt": "2026-11-18T09:24:57.512Z"
+    },
+    {
+      "id": "file-1795000491154",
+      "productId": "prod-dan-0042",
+      "subfolder": "AI Images",
+      "fileName": "DAN-0042_chatgpt_9658.jpg",
+      "diskRelativePath": "DAN-Danshvar/Living Room/Aria Set/DAN-0042/AI Images/DAN-0042_chatgpt_9658.jpg",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 11579,
+      "sha256": "6dddbeb2b01d8c73e53a01fcdd90c4c44d4ecd171b82c4bf2cd27b32a1370112",
+      "originUrl": "https://chatgpt.com",
+      "convertedFromPng": true,
+      "createdAt": "2026-11-18T11:14:51.154Z"
+    }
+  ],
+  "updatedAt": "2026-11-18T11:14:52.643Z"
+}

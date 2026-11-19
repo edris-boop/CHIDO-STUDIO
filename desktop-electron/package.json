@@ -1,0 +1,13 @@
+{
+  "name": "chido-studio-desktop",
+  "version": "1.0.0",
+  "description": "CHIDO Studio Windows Desktop Shell (Electron + WebContentsView + Blender Bridge)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "CHIDO_URL=http://localhost:3000 electron ."
+  },
+  "dependencies": {
+    "electron": "^35.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CHIDO Studio",
+  "description": "Integrated 3D modeling operations, local asset manager, internal Chromium workflow, and Blender pipeline workspace for CHIDO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

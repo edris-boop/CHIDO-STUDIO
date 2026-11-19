@@ -1,0 +1,116 @@
+{
+  "internalId": "prod-tol-0108",
+  "code": "TOL-0108",
+  "companyId": "comp-tol",
+  "name": "میز ناهارخوری گردو شیاردار",
+  "categoryFolder": "Dining",
+  "setFolder": "Fluted Series",
+  "tags": [
+    "ناهارخوری",
+    "چوب گردو",
+    "هشت‌نفره"
+  ],
+  "modelingStatus": "blender_refine",
+  "activeOnlineRevision": null,
+  "revisions": [
+    {
+      "id": "rev-prod-tol-0108-r01",
+      "productId": "prod-tol-0108",
+      "version": "R01",
+      "source": "tripo",
+      "fileName": "TOL-0108_tripo_raw.glb",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Tripo/TOL-0108_tripo_raw.glb",
+      "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+      "sizeBytes": 5796,
+      "status": "local",
+      "notes": "خروجی اولیه دریافت‌شده از Tripo",
+      "createdAt": "2026-11-15T11:20:00Z",
+      "isActiveOnline": false
+    },
+    {
+      "id": "rev-1795000569954-kf7",
+      "productId": "prod-tol-0108",
+      "version": "R02",
+      "source": "blender",
+      "fileName": "TOL-0108_R02_blender.glb",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_blender.glb",
+      "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+      "sizeBytes": 5796,
+      "status": "ready_to_upload",
+      "notes": "آماده‌سازی دسته‌ای Blender (اصلاح مقیاس و متریال)",
+      "createdAt": "2026-11-18T11:16:09.952Z",
+      "isActiveOnline": false
+    }
+  ],
+  "files": [
+    {
+      "id": "file-prod-tol-0108-ref1",
+      "productId": "prod-tol-0108",
+      "subfolder": "References",
+      "fileName": "TOL-0108_reference.jpg",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/References/TOL-0108_reference.jpg",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 678827,
+      "sha256": "bc69b86bec1e204daa2d3e47a46f650adbc5b77716c439f68bd92a1c1f3d41eb",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-tol-0108-ai1",
+      "productId": "prod-tol-0108",
+      "subfolder": "AI Images",
+      "fileName": "TOL-0108_chatgpt_cutout.png",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/AI Images/TOL-0108_chatgpt_cutout.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1201,
+      "sha256": "c3bf54742a55f3e8b96d391fdfc6e2f70f0bed609c29aeea2725173f681417e9",
+      "originUrl": "https://chatgpt.com",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-tol-0108-tripo1",
+      "productId": "prod-tol-0108",
+      "subfolder": "Tripo",
+      "fileName": "TOL-0108_tripo_raw.glb",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Tripo/TOL-0108_tripo_raw.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 5796,
+      "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+      "originUrl": "https://www.tripo3d.ai",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-tol-0108-exp2",
+      "productId": "prod-tol-0108",
+      "subfolder": "Exports",
+      "fileName": "TOL-0108_R02_final.glb",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_final.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 5796,
+      "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-prod-tol-0108-blend1",
+      "productId": "prod-tol-0108",
+      "subfolder": "Blender",
+      "fileName": "TOL-0108_scene.blend.json",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Blender/TOL-0108_scene.blend.json",
+      "mimeType": "application/json",
+      "sizeBytes": 95,
+      "sha256": "a854d10835e3b59ad1c442099dce11fab8dd8b8381df732c686e1a7b5b1c8164",
+      "createdAt": "2026-11-18T09:24:11.506Z"
+    },
+    {
+      "id": "file-1795000569954-oqu",
+      "productId": "prod-tol-0108",
+      "subfolder": "Exports",
+      "fileName": "TOL-0108_R02_blender.glb",
+      "diskRelativePath": "TOL-Tolica/Dining/Fluted Series/TOL-0108/Exports/TOL-0108_R02_blender.glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 5796,
+      "sha256": "a6a0c76f30a69010479c6babeaaf3160c75b622168ec4a0c19875d215dfa81a3",
+      "createdAt": "2026-11-18T11:16:09.952Z"
+    }
+  ],
+  "updatedAt": "2026-11-18T11:16:09.952Z"
+}

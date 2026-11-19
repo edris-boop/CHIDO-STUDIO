@@ -1,0 +1,13 @@
+{
+  "productId": "prod-dan-0042",
+  "productCode": "DAN-0042",
+  "productName": "مبل سه‌نفره آریا",
+  "companyCode": "DAN",
+  "companyName": "مبلمان دانشور",
+  "sourceGlbPath": "/app/applet/chido-assets/DAN-Danshvar/Living Room/Aria Set/DAN-0042/Tripo/DAN-0042_tripo_raw.glb",
+  "blenderFolder": "/app/applet/chido-assets/DAN-Danshvar/Living Room/Aria Set/DAN-0042/Blender",
+  "exportsFolder": "/app/applet/chido-assets/DAN-Danshvar/Living Room/Aria Set/DAN-0042/Exports",
+  "nextRevision": "R05",
+  "studioApiUrl": "http://localhost:3000",
+  "launchedAt": "2026-11-18T09:34:32.274Z"
+}

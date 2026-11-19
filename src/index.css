@@ -1,0 +1,139 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="charcoal"], [data-theme="charcoal"] *));
+
+@layer base {
+  :root,
+  :root[data-theme="light"] {
+    --font-sans: "Vazirmatn", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: "Plus Jakarta Sans", "Vazirmatn", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+    --surface-canvas: #eef2f7;
+    --surface-card: #ffffff;
+    --surface-subtle: #f4f7fb;
+    --surface-elevated: #e3eaf4;
+    --surface-hover: #f8fafd;
+    --border-hairline: #d9e2ef;
+    --border-strong: #c3d0e3;
+
+    --ink-primary: #0f172a;
+    --ink-secondary: #334155;
+    --ink-muted: #64748b;
+
+    --accent-primary: #2563eb;
+    --accent-primary-hover: #1d4ed8;
+    --accent-soft: #e8f0fe;
+    --accent-ink: #1d4ed8;
+
+    --tone-emerald-bg: #e7f8ef;
+    --tone-emerald-ink: #0f7a4b;
+    --tone-amber-bg: #fef4de;
+    --tone-amber-ink: #a15807;
+    --tone-violet-bg: #f1ebfe;
+    --tone-violet-ink: #6d28d9;
+    --tone-rose-bg: #feecee;
+    --tone-rose-ink: #be123c;
+  }
+
+  :root[data-theme="pastel"] {
+    --surface-canvas: #f2edf7;
+    --surface-card: #fdfcff;
+    --surface-subtle: #ebe4f4;
+    --surface-elevated: #dfd5ee;
+    --surface-hover: #f6f2fc;
+    --border-hairline: #dfd6ec;
+    --border-strong: #c9bce0;
+
+    --ink-primary: #221c38;
+    --ink-secondary: #463e64;
+    --ink-muted: #6e668f;
+
+    --accent-primary: #6351d4;
+    --accent-primary-hover: #503ec2;
+    --accent-soft: #ebe7fd;
+    --accent-ink: #4a38b8;
+
+    --tone-emerald-bg: #e3f5ec;
+    --tone-emerald-ink: #1d6f4c;
+    --tone-amber-bg: #fcf2d6;
+    --tone-amber-ink: #945f0f;
+    --tone-violet-bg: #eee5fb;
+    --tone-violet-ink: #673ab7;
+    --tone-rose-bg: #fbe8ee;
+    --tone-rose-ink: #a9234e;
+  }
+
+  :root[data-theme="charcoal"] {
+    --surface-canvas: #1a1d24;
+    --surface-card: #232730;
+    --surface-subtle: #2b303b;
+    --surface-elevated: #343a47;
+    --surface-hover: #2f3542;
+    --border-hairline: #343a48;
+    --border-strong: #474f62;
+
+    --ink-primary: #f1f5f9;
+    --ink-secondary: #d0d8e6;
+    --ink-muted: #98a3b8;
+
+    --accent-primary: #3b82f6;
+    --accent-primary-hover: #2563eb;
+    --accent-soft: rgba(59, 130, 246, 0.2);
+    --accent-ink: #93c5fd;
+
+    --tone-emerald-bg: rgba(16, 185, 129, 0.18);
+    --tone-emerald-ink: #6ee7b7;
+    --tone-amber-bg: rgba(245, 158, 11, 0.18);
+    --tone-amber-ink: #fcd34d;
+    --tone-violet-bg: rgba(168, 85, 247, 0.2);
+    --tone-violet-ink: #d8b4fe;
+    --tone-rose-bg: rgba(244, 63, 94, 0.18);
+    --tone-rose-ink: #fda4af;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--surface-canvas);
+    color: var(--ink-primary);
+    font-size: 15px;
+    line-height: 1.65;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle scrollbars for studio panels */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.55);
+}
